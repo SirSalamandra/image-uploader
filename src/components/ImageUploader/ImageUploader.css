@@ -1,0 +1,62 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-file-upload {
+  height: 500px;
+  width: 400px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: min-content 10% 50% auto;
+}
+
+#input-file-upload {
+  display: none;
+}
+
+#drag-drop-container {
+  border: 2px dashed #3097eff2;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+#drag-drop-container > img {
+  width: 40%;
+}
+
+#drag-file-element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+#choose-file-button {
+  border-radius: 10px;
+  background-color: #2f80ed;
+  color: white;
+  border: 0px;
+  padding: 10px;
+}

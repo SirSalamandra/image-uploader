@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Icons'; 
+  color: #219653;
+  font-size: 2.5rem;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+h3 {
+  margin: .5em;
+}
+
+.image {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.button-container {
+  border: 1px solid gray;
+  background-color: #f6f8fb;
+  border-radius: 5px;
+  /* padding-left: 5px; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-url {
+  width: 75%;
+  border: none;
+  background-color: transparent;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+
+.button-copy-url {
+  height: 100%;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  font-size: 0.7em;
+  padding: 15px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 25%;
+}

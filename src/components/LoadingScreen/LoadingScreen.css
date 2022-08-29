@@ -1,0 +1,8 @@
+#loading-container {
+  width: 400px;
+  text-align: left;
+}
+
+#loading-container > progress {
+  width: 100%;
+}
