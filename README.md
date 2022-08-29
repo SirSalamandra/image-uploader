@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="[Demo](https://dusty-tiger.surge.sh/)">
+    <a href="https://dusty-tiger.surge.sh/">
       Demo
     </a>
     <!-- <span> | </span>
