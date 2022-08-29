@@ -2,7 +2,6 @@ import React from 'react';
 import './ImageUploader.css'
 import ImagePlaceholder from '../../assets/image.svg';
 import Card from '../Card/Card';
-import { type } from 'os';
 
 const ImageUploader: React.FC<{ uploadFile: (file: File) => void }> = (props) => {
   const [dragActive, setDragActive] = React.useState(false);
