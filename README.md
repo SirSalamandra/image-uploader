@@ -85,5 +85,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [SirSalamandra](https://{github.com/SirSalamandra})
-- Twitter [SirSalamandra](https://{twitter.com/SirSalamandra})
+- GitHub [SirSalamandra](https://github.com/SirSalamandra)
+- Twitter [SirSalamandra](https://twitter.com/SirSalamandra)
